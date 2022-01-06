@@ -1,0 +1,119 @@
+.round_icon{
+    width: 90px;
+    height: 90px;
+    position:relative;
+    right: -15px;
+    bottom:-30px;
+    display: flex;
+    border-radius: 60%;
+    align-items: center;
+    justify-content: right;
+    overflow: hidden;
+ }
+ .pos{
+    position:relative;
+    right: -15px;
+    bottom:-30px;
+ }
+ .pos2{
+    position:relative;
+    right: -60px;
+    bottom:-20px;
+ }
+ .k{
+    display: table-row;
+    position:relative;
+    right: -7px;
+    bottom:-60px;
+ }
+  .angry-grid {
+     display: grid; 
+  
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     
+     gap: 5px;
+     height: 80%;
+     
+  }
+    
+  #item-0 {
+  
+     background-color: #88dcfb; 
+     grid-row-start: 1;
+     grid-column-start: 1;
+  
+     grid-row-end: 3;
+     grid-column-end: 4;
+     
+  }
+  #item-1 {
+  
+     background-color: #88dcfb; 
+     grid-row-start: 3;
+     grid-column-start: 1;
+  
+     grid-row-end: 6;
+     grid-column-end: 3;
+     
+  }
+  #item-2 {
+  
+     background-color:  #88dcfb; 
+     grid-row-start: 3;
+     grid-column-start: 3;
+  
+     grid-row-end: 6;
+     grid-column-end: 4;
+     
+  }
+  #item-3 {
+  
+     background-color: #968BB6; 
+     grid-row-start: 2;
+     grid-column-start: 4;
+  
+     grid-row-end: 3;
+     grid-column-end: 7;
+     
+  }
+  #item-4 {
+  
+     background-color: #EA8A9F; 
+     grid-row-start: 2;
+     grid-column-start: 7;
+  
+     grid-row-end: 3;
+     grid-column-end: 12;
+     
+  }
+  #item-5 {
+  
+     background-color: #968BB6; 
+     grid-row-start: 3;
+     grid-column-start: 4;
+  
+     grid-row-end: 6;
+     grid-column-end: 7;
+     
+  }
+  #item-6 {
+  
+     background-color: #58EFAE; 
+     grid-row-start: 3;
+     grid-column-start: 7;
+  
+     grid-row-end: 6;
+     grid-column-end: 12;
+     
+  }
+  #item-7 {
+  
+     background-color: #E59FAF; 
+     grid-row-start: 1;
+     grid-column-start: 4;
+  
+     grid-row-end: 2;
+     grid-column-end: 12;
+     
+  }

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的课程表</title>
+        <link rel="stylesheet" href="index.css" type="text/css"> <!-- 引入外部样式表-->
+</head>
+<body>
+   <div class="wrap">
+       <aside  id="left">
+    <div class="bt"><p>我的课程表</p></div>
+     <div class="TL"></div>
+     <div class="Week">
+       <ul>
+         <li class="fl">一</li>
+         <li class="fl">二</li>
+         <li class="fl">三</li>
+         <li class="fl">四</li>
+         <li class="fl">五</li>
+         <li class="fl">六</li>
+         <li class="fl">日</li>
+       </ul>
+     </div>
+     <div class="Source">
+<!--       节数-->
+       <div class="Num fl">
+       <ul>
+         <li>1</li>
+         <li>2</li>
+         <li>3</li>
+         <li>4</li>
+         <li>5</li>
+         <li>6</li>
+         <li>7</li>
+         <li>8</li>
+         <li>9</li>
+         <li>10</li>
+         <li>11</li>
+         <li>12</li>
+       </ul>
+     </div>
+<!--     星期一课程信息-->
+     <div class="Mon fl">
+       <ul class="kc">
+        <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+         <li  class="wj"><p>微机接口与技术</p></li>
+         <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+        
+         <li class="English"><p>专业英语</p></li>
+         
+       </ul>
+     </div>
+     <!--     星期二课程信息-->
+     <div class="Tue fl">
+       <ul class="kc">
+         <li class="web"><p>web程序设计</p></li>
+         <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+         <li class="literature"><p>世界性民间文学组织</p></li>
+         <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+         <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+        
+       </ul>
+     </div>
+     <!--     星期三课程信息-->
+     <div class="Wed fl">
+       <ul class="kc">
+        <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+         <li class="czxt"><p>操作系统</p></li>
+         <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+         <li class="windows"><p>windows程序设计</p></li>
+         <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+         
+       </ul>
+     </div>
+     <!--     星期四课程信息-->
+     <div class="Thu fl">
+       <ul class="kc">
+        <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+         <li class="xjpsx"><p>习近平思想概论</p></li>
+         <li class="web"><p>web程序设计</p></li>
+         <li class="byyl"><p>编译原理</p></li>
+       </ul>
+     </div>
+     <!--     星期五课程信息-->
+     <div class="Fri fl">
+       <ul class="kc">
+         
+         <li class="czxt"><p>操作系统</p></li>
+         <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+       </ul>
+     </div>
+     <!--     星期六课程信息-->
+     <div class="Sat fl">
+       <ul class="kc">
+       
+       </ul>
+     </div>
+     <!--     星期日课程信息-->
+     <div class="Sun fl">
+       <ul class="kc">
+         <li style="border: none;box-shadow: none;width: 98px;height: 162px;"></li>
+       </ul>
+     </div>
+     </div>
+       </aside>
+    <section  id="right">
+      <div id="showczxt">操作系统原理喻莹，n213</div>
+      <div id="showwj">微机原理与接口技术，周一3-4，陈怡，n535</div>
+      <div id="showEnglish">专业英语，周一7-8节，李增扬，n112</div>
+      <div id="showweb">web程序设计涂新辉，n108</div>
+      <div id="showliterature">世界性民间文学，周二5-6节，孙正国，n301</div>
+      <div id="showwindows">windows程序设计，周三7-8节，赵卫中，n211</div>
+      <div id="showxjpsx">习近平新时代思想概论，周四3-4节，张艳斌，n215</div>
+      <div id="showbyyl">编译原理，周四7-8节，郭京蕾，n213</div>
+    </section>
+   </div>
+</body>
+</html>
+<script>
+	//1.获取标签元素
+  //2.书写事件
+	var courses=document.getElementsByClassName("czxt");
+	var oBox=document.getElementById('showczxt');
+  var i;
+  for (i = 0; i < courses.length; i++) {
+    courses[i].onmouseover=function(){
+  oBox.style.display='block';
+    }
+    courses[i].onmouseout=function(){	
+  oBox.style.display='none';
+    }
+}
+</script>
+<script>
+	//1.获取标签元素
+  //2.书写事件
+	var courses1=document.getElementsByClassName("wj");
+	var oBox1=document.getElementById('showwj');
+  var i;
+  for (i = 0; i < courses.length; i++) {
+    courses1[i].onmouseover=function(){
+  oBox1.style.display='block';
+    }
+    courses1[i].onmouseout=function(){	
+  oBox1.style.display='none';
+    }
+}
+</script>
+<script>
+	//1.获取标签元素
+  //2.书写事件
+	var courses2=document.getElementsByClassName("English");
+	var oBox2=document.getElementById('showEnglish');
+  var i;
+  for (i = 0; i < courses2.length; i++) {
+    courses2[i].onmouseover=function(){
+  oBox2.style.display='block';
+    }
+    courses2[i].onmouseout=function(){	
+  oBox2.style.display='none';
+    }
+}
+</script>
+<script>
+	//1.获取标签元素
+  //2.书写事件
+	var courses3=document.getElementsByClassName("literature");
+	var oBox3=document.getElementById('showliterature');
+  var i;
+  for (i = 0; i < courses3.length; i++) {
+    courses3[i].onmouseover=function(){
+  oBox3.style.display='block';
+    }
+    courses3[i].onmouseout=function(){	
+  oBox3.style.display='none';
+    }
+}
+</script>
+<script>
+	//1.获取标签元素
+  //2.书写事件
+	var courses4=document.getElementsByClassName("xjpsx");
+	var oBox4=document.getElementById('showxjpsx');
+  var i;
+  for (i = 0; i < courses4.length; i++) {
+    courses4[i].onmouseover=function(){
+  oBox4.style.display='block';
+    }
+    courses4[i].onmouseout=function(){	
+  oBox4.style.display='none';
+    }
+}
+</script>
+<script>
+	//1.获取标签元素
+  //2.书写事件
+	var courses5=document.getElementsByClassName("byyl");
+	var oBox5=document.getElementById('showbyyl');
+  var i;
+  for (i = 0; i < courses5.length; i++) {
+    courses5[i].onmouseover=function(){
+  oBox5.style.display='block';
+    }
+    courses5[i].onmouseout=function(){	
+  oBox5.style.display='none';
+    }
+}
+</script>
+<script>
+	//1.获取标签元素
+  //2.书写事件
+	var courses6=document.getElementsByClassName("web");
+	var oBox6=document.getElementById('showweb');
+  var i;
+  for (i = 0; i < courses6.length; i++) {
+    courses6[i].onmouseover=function(){
+  oBox6.style.display='block';
+    }
+    courses6[i].onmouseout=function(){	
+  oBox6.style.display='none';
+    }
+}
+</script>
+<script>
+	//1.获取标签元素
+  //2.书写事件
+	var courses7=document.getElementsByClassName("windows");
+	var oBox7=document.getElementById('showwindows');
+  var i;
+  for (i = 0; i < courses7.length; i++) {
+    courses7[i].onmouseover=function(){
+  oBox7.style.display='block';
+    }
+    courses7[i].onmouseout=function(){	
+  oBox7.style.display='none';
+    }
+}
+</script>
+

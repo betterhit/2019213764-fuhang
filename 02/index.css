@@ -1,0 +1,226 @@
+body{
+   
+    padding:0;
+    background:#fff;
+   
+    }
+  body>div{
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+  }
+  div,form,ul,ol,li,span,p,dl,dt,dd,img{
+        margin: 0;
+        padding: 0;
+        border: 0;
+  }
+  h1,h2,h3,h4,h5,h6{
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+      font-weight: normal;
+  }
+  ul,ol,li{
+      list-style: none;
+  }  /*清除列表默认样式*/
+/*设置浮动*/
+    .fl{float: left;}
+/*课程背景颜色*/
+    .wj{background-color:#00ff40;}
+    .czxt{background-color:#A349A4;}
+    .English{background-color:#93c4f1;}
+    .literature{background-color:#ff5858;}
+    .windows{background-color:#ff8040;}
+    .xjpsx{background-color:#400080;}
+    .byyl{background-color:#408080;}
+    .web{background-color:#804040;}
+    .wrap{
+        width:100%;
+        margin:0 auto;
+        overflow: hidden;
+    }
+    #left{
+        width:65%;
+        height:1000px;
+        background: url(2.png);
+        float: left;
+    }
+    #right{
+        width:35%;
+        height:1000px;
+        background: #ffcccc;
+        float: right;
+    }
+
+
+/*设置标题CSS规则*/
+    .bt{
+      padding-top: 35px;
+      margin: 0 auto;
+    }
+    .bt p{
+      font-size: 40px; font-family: 微软雅黑;color: #fff;
+    }
+/*设置星期CSS规则*/
+    .TL{
+      width: 890px;
+      height: 4px;
+      background-color: #d2d2d2;
+      margin-top: 30px;
+    }
+    .Week{
+      width: 890px;
+      height: 58px;
+      background-color: #fff;
+      filter: alpha(opacity=60);
+      opacity: 0.6;
+    }
+    .Week ul{
+      padding-left: 60px;
+    }
+    .Week ul li{
+      font-family: 微软雅黑;
+      font-size: 26px;
+      color: #333;
+      text-align: center;
+      width: 110px;
+      line-height: 56px;
+    }
+/*设置节次CSS规则*/
+    .Source{
+      width: 890px;
+      height: 858px;
+      margin-top: 3px;
+      background-image: url("../img/_500641415_banner.jpg");
+    }
+    .Num{
+      width: 60px;
+      height: 1180px;
+      margin-top: 1px;
+      background-color: #fff;
+      filter: alpha(opacity=60);
+      opacity: 0.6;
+    }
+    .Num ul li{
+      font-family: 微软雅黑;
+      font-size: 26px;
+      color: #333;
+      width: 60px;
+      height: 81px;
+      line-height: 81px;
+      text-align: center;
+    }
+/*设置课程CSS规则*/
+    .Sun ul li{width: 98px;height: 153px;}
+    .Mon,.Tue,.Wed,.Thu,.Fri,.Sat,.Sun ul{margin-top: 1px;}
+    .kc li{
+      width: 98px;
+      height: 153px;
+      border-radius: 10px;
+      border: 5px solid #fff;
+      margin-bottom: 3px;
+      margin-left: 2px;
+      box-shadow: inset 0 1px 8px #666;
+    }
+    .kc li p{
+      font-family: 微软雅黑;
+      color: #fff;
+      font-size: 20px;
+      width: 98px;
+      height: 153px;
+      display: -webkit-box;
+      -webkit-box-align: center;
+      -webkit-box-pack: center;
+    }
+    #right #showczxt{
+      width: 20%;
+      position: absolute;
+      right: 6%;
+      top: 400px;
+      font-size: xx-large;
+      display: none;
+      word-wrap: break-word;
+      word-break: normal;
+      color:rgb(53,73,94);
+    }
+    #right #showwj{
+      width: 20%;
+      position: absolute;
+      right: 6%;
+      top: 400px;
+      font-size: xx-large;
+      display: none;
+      word-wrap: break-word;
+      word-break: normal;
+      color:rgb(53,73,94);
+    }
+    #right #showEnglish{
+      width: 20%;
+      position: absolute;
+      right: 6%;
+      top: 400px;
+      font-size: xx-large;
+      display: none;
+      word-wrap: break-word;
+      word-break: normal;
+      color:rgb(53,73,94);
+    }
+    #right #showweb{
+      width: 20%;
+      position: absolute;
+      right: 6%;
+      top: 400px;
+      font-size: xx-large;
+      display: none;
+      word-wrap: break-word;
+      word-break: normal;
+      color:rgb(53,73,94);
+    }
+    #right #showliterature{
+      width: 20%;
+      position: absolute;
+      right: 6%;
+      top: 400px;
+      font-size: xx-large;
+      display: none;
+      word-wrap: break-word;
+      word-break: normal;
+      color:rgb(53,73,94);
+    }
+    #right #showwindows{
+      width: 20%;
+      position: absolute;
+      right: 6%;
+      top: 400px;
+      font-size: xx-large;
+      display: none;
+      word-wrap: break-word;
+      word-break: normal;
+      color:rgb(53,73,94);
+    }
+
+  
+  #right #showxjpsx{
+    width: 20%;
+    position: absolute;
+    right: 6%;
+    top: 400px;
+    font-size: xx-large;
+    display: none;
+    word-wrap: break-word;
+    word-break: normal;
+    color:rgb(53,73,94);
+  }
+
+#right #showbyyl{
+  width: 20%;
+  position: absolute;
+  right: 6%;
+  top: 400px;
+  font-size: xx-large;
+  display: none;
+  word-wrap: break-word;
+  word-break: normal;
+  color:rgb(53,73,94);
+}
+   
